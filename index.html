@@ -17,16 +17,36 @@
   <meta name="revisit-after" content="15days" />
   <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
   <title>English</title>
-  <script type="module" crossorigin src="/assets/main-mkYBUWu3.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/main-TpH7zjYU.css">
+  <script type="module" crossorigin src="/assets/main-xjrx-Z6Q.js"></script>
+  <script type="module" crossorigin src="/assets/translator-wOPD4VXR.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-nKux3ntI.css">
 </head>
 
 <body class="bg-gray-200 dark:text-gray-100 dark:bg-gray-800">
   <header class="pb-5">
+    <div class="absolute top-0 right-0 py-6 px-2">
+      <button type="button" class="text-center hover:text-blue-500" onclick="changeLanguage('es')">
+        <span class="block px-1 pt-1 pb-1">
+          <span>ES</span>
+          <span class="block text-xs pb-2">Español</span>
+        </span>
+      </button>
+      <button type="button" class="text-center hover:text-blue-500" onclick="changeLanguage('en')">
+        <span class="block px-1 pt-1 pb-1">
+          <span>EN</span>
+          <span class="block text-xs pb-2">English</span>
+        </span>
+      </button>
+    </div>
     <h1 class="font-bold text-5xl mt-5 tracking-tight text-center">
-      English for programmers
+      Soft English
     </h1>
+
   </header>
+
+ 
+
+
 
   <main class="max-w-screen-xl mx-auto px-5 ">
     <section class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
@@ -36,12 +56,13 @@
           <h1 class="m-4 text-2xl font-bold">A1</h1>
           <hr class="m-4 rounded-2xl border-t-2">
           <ul class="list-disc pl-9 pr-4 capitalize">
-            <li class="hover:text-blue-500"><a href="./src/a1/introduction.html">introduction</a></li>
-            <li class="hover:text-blue-500"><a href="./src/a1/numbers.html">numbers</a></li>
-            <li class="hover:text-blue-500"><a href="#">Pronouns</a></li>
-            <li class="hover:text-blue-500"><a href="#">Verbo to be</a></li>
-            <li class="hover:text-blue-500"><a href="#">Present Simple and Continuous</a></li>
-            <li class="hover:text-blue-500"><a href="#">WH Questions</a></li>
+            <li class="hover:text-blue-500"><a href="./src/a1/introduction.html" data-i18n="introduction"></a></li>
+            <li class="hover:text-blue-500"><a href="./src/a1/numbers.html" data-i18n="numbers"></a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="pronouns"></a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="verb_to_be"></a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="present_simple"></a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="present_continuous"></a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="wh_questions"></a></li>
           </ul>
         </div>
       </article>
@@ -51,9 +72,9 @@
           <h1 class="m-4 text-2xl font-bold">A2</h1>
           <hr class="m-4 rounded-2xl border-t-2">
           <ul class="list-disc pl-9 pr-4">
-            <li class="hover:text-blue-500"><a href="#">Past Simple and Continuous</a></li>
-            <li class="hover:text-blue-500"><a href="#">Simple future</a></li>
-            <li class="hover:text-blue-500"><a href="#">Present perfect</a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="past_simple"></a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="past_continous"></a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="simple_future"></a></li>
           </ul>
         </div>
       </article>
@@ -63,8 +84,9 @@
           <h1 class="m-4 text-2xl font-bold">B1</h1>
           <hr class="m-4 rounded-2xl border-t-2">
           <ul class="list-disc pl-9 pr-4">
-            <li class="hover:text-blue-500"><a href="#">Present Perfect and Past Perfect</a></li>
-            <li class="hover:text-blue-500"><a href="#">Conditionals 0, 1, 2, 3</a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="present_perfect"></a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="past_perfect"></a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="conditionals_numbers"></a></li>
           </ul>
         </div>
       </article>
@@ -74,10 +96,10 @@
           <h1 class="m-4 text-2xl font-bold">B2</h1>
           <hr class="m-4 rounded-2xl border-t-2">
           <ul class="list-disc pl-9 pr-4">
-            <li class="hover:text-blue-500"><a href="#">Modal verbs</a></li>
-            <li class="hover:text-blue-500"><a href="#">Reported Speech</a></li>
-            <li class="hover:text-blue-500"><a href="#">Passive and Active Voice</a></li>
-            <li class="hover:text-blue-500"><a href="#">Comparatives and superlatives applied to professions</a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="modal_verbs"></a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="reported_speech"></a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="passive_and_active_voice"></a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="comparatives_and_superlative"></a></li>
           </ul>
         </div>
       </article>
@@ -87,8 +109,7 @@
           <h1 class="m-4 text-2xl font-bold">C1</h1>
           <hr class="m-4 rounded-2xl border-t-2">
           <ul class="list-disc pl-9 pr-4">
-            <li class="hover:text-blue-500"><a href="#">Readings on technology and scientific inventions</a></li>
-            <li class="hover:text-blue-500"><a href="#">Diction and practices</a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="diction_and_practices"></a></li>
           </ul>
         </div>
       </article>
@@ -98,19 +119,19 @@
           <h1 class="m-4 text-2xl font-bold">C2</h1>
           <hr class="m-4 rounded-2xl border-t-2">
           <ul class="list-disc pl-9 pr-4">
-            <li class="hover:text-blue-500"><a href="#">Listening and practicing</a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="listening_and_practicing"></a></li>
           </ul>
         </div>
       </article>
       <article class="bg-blue-300 w-52 h-72 m-8 rounded-lg ">
         <div
           class="bg-white dark:bg-gray-700 w-52 h-72 -m-2 hover:m-0 absolute rounded-lg shadow-lg hover:shadow-2xl transition-all duration-150 ease-out hover:ease-in ">
-          <h1 class="m-4 text-2xl font-bold capitalize">verb tenses</h1>
+          <h1 class="m-4 text-2xl font-bold capitalize" data-i18n="verb_tenses"></h1>
           <hr class="m-4 rounded-2xl border-t-2">
           <ul class="list-disc pl-9 pr-4">
-            <li class="hover:text-blue-500 capitalize"><a href="#">simple time</a></li>
-            <li class="hover:text-blue-500 capitalize"><a href="#">continuous time</a></li>
-            <li class="hover:text-blue-500 capitalize"><a href="#">Perfect time</a></li>
+            <li class="hover:text-blue-500 capitalize"><a href="#" data-i18n="simple_time"></a></li>
+            <li class="hover:text-blue-500 capitalize"><a href="#" data-i18n="continuous_time"></a></li>
+            <li class="hover:text-blue-500 capitalize"><a href="#" data-i18n="perfect_time"></a></li>
           </ul>
         </div>
       </article>
@@ -118,15 +139,16 @@
 
     <section class="max-w-screen-xl mx-auto px-5 my-5">
       <article class="flex flex-col items-center">
-        <p class="text-neutral-700 dark:text-neutral-300 text-xl mt-3">
-          Frequenty asked questions
+        <p class="text-neutral-700 dark:text-neutral-300 text-xl mt-3 capitalize"
+          data-i18n="frequently_asked_questions">
+
         </p>
       </article>
       <article class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
         <div class="py-5">
           <details class="group">
             <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-              <span> What is a this platform?</span>
+              <span data-i18n="question_1"></span>
               <span class="transition group-open:rotate-180">
                 <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
                   stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
@@ -134,11 +156,10 @@
                 </svg>
               </span>
             </summary>
-            <p class="text-neutral-700 dark:text-neutral-300 mt-3 group-open:animate-fadeIn">
-              This is a platform for learn english and to practice programing in the same time with a simple design but
-              attractive for the students.
+            <p class="text-neutral-700 dark:text-neutral-300 mt-3 group-open:animate-fadeIn" data-i18n="answer_1">
             </p>
           </details>
+
         </div>
       </article>
     </section>
@@ -185,7 +206,7 @@
         </span>
       </div>
     </div>
-  </footer>
+  </footer>
 </body>
 
 </html>
